@@ -1,0 +1,5 @@
+{
+  "name": "DeStar Landing Page",
+  "description": "A static landing page for the DeStar Chrome extension, built with plain HTML, CSS, and JS.",
+  "requestFramePermissions": []
+}
