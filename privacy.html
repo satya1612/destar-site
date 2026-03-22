@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - DeStar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .privacy-content {
+            max-width: 800px;
+            margin: 60px auto;
+            background: white;
+            padding: 40px 48px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+        }
+        .privacy-content h1 {
+            margin-bottom: 24px;
+            font-size: 36px;
+            letter-spacing: -0.5px;
+        }
+        .privacy-content h2 {
+            margin-top: 48px;
+            margin-bottom: 16px;
+            font-size: 24px;
+            color: #000;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+        .privacy-content h3 {
+            margin-top: 24px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            color: #222;
+        }
+        .privacy-content p {
+            margin-bottom: 16px;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+        .privacy-content ul {
+            margin-bottom: 24px;
+            padding-left: 24px;
+            color: var(--text-muted);
+        }
+        .privacy-content li {
+            margin-bottom: 8px;
+            line-height: 1.7;
+        }
+        .privacy-content a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .privacy-content a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .privacy-content {
+                padding: 32px 24px;
+                margin: 40px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">*DeStar</a>
+            <a href="https://chrome.google.com/webstore" target="_blank" class="btn btn-primary">Add to Chrome</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="privacy-content">
+            <h1>Privacy Policy</h1>
+            <p><strong>Last updated:</strong> March 22, 2026</p>
+            <p>Applies to: the DeStar browser extension and related services operated by DeStar (“we,” “us,” or “our”).</p>
+
+            <h2>1. What DeStar does</h2>
+            <p>DeStar helps you understand websites’ Terms of Service and Privacy Policy pages in plain language. When you use the extension on a site, it tries to find those documents, sends their content (or links to them) to our servers for processing, and shows you a non-legal, AI-generated summary with highlights we call “flags.”</p>
+            <p>This is not legal advice. We do not review your situation personally, and you should not rely on the extension instead of reading the real policies or talking to a lawyer when it matters.</p>
+
+            <h2>2. Information we process</h2>
+            <p>We only process data needed to run the extension. We do not sell your personal information. We do not use your data to show you ads inside the extension.</p>
+
+            <h3>a) Website and policy information</h3>
+            <p>When you analyze a page, we may process:</p>
+            <ul>
+                <li>The address (URL) of the tab you are viewing, so we know which site you are asking about and can apply same-site rules safely.</li>
+                <li>Links to terms-of-service and privacy-policy pages that the extension finds on that page (or that our systems suggest).</li>
+                <li>The text or HTML of those policy pages (or excerpts), either fetched by our servers or sent from your browser when a page only works after JavaScript runs in a real browser.</li>
+            </ul>
+            <p>Policy documents are public legal text, but they can still mention products, regions, or other details that relate to you indirectly. We treat this material as sensitive from a privacy perspective because it is tied to your choice to analyze a specific site at a specific time.</p>
+
+            <h3>b) Analysis results</h3>
+            <p>We generate and store a structured summary (for example, an overall label, short explanations, and a limited number of “red” and “green” flags). That output is what you see in the extension.</p>
+
+            <h3>c) Technical data</h3>
+            <p>Like most online services, our servers may automatically receive standard technical information when you connect to them, such as IP address, approximate region, browser type, timestamps, and error logs. We use this to operate, secure, and fix the service.</p>
+
+            <h2>3. How we use this information</h2>
+            <p>We use the information above only to:</p>
+            <ul>
+                <li>Locate and read terms and privacy pages.</li>
+                <li>Run automated analysis (including AI) on the policy text.</li>
+                <li>Return results to your extension and cache them so we do not repeat the same heavy work for every user (see “Storage and retention” below).</li>
+                <li>Keep the service reliable and secure.</li>
+            </ul>
+            <p>We do not use this data to build a profile of you for marketing, and we do not sell it.</p>
+
+            <h2>4. Browser extension permissions (why we ask for them)</h2>
+            <p>The extension needs certain permissions to function and to match what we describe here:</p>
+            <ul>
+                <li><strong>Active tab / tabs:</strong> To know which site you opened the extension on and, when necessary, to load policy pages in the background so JavaScript-rendered legal text can be captured accurately.</li>
+                <li><strong>Scripting:</strong> To read page content the extension needs (for example, policy links or rendered HTML) in a controlled way.</li>
+                <li><strong>Host access (http and https):</strong> So the extension and our backend can request policy pages across the web; our backend may fetch pages directly when your browser does not need to send HTML.</li>
+                <li><strong>Storage (chrome.storage.local):</strong> To remember recent analysis results on your device per website domain, so the popup can load faster when you revisit the same site.</li>
+            </ul>
+            <p>We access web pages in service of the single purpose of finding and analyzing public terms and privacy documents—not to track unrelated browsing.</p>
+
+            <h2>5. AI and third-party services</h2>
+            <p>To analyze policies and sometimes to suggest policy page URLs when links are missing or broken, we send portions of policy text and related prompts to AI providers.</p>
+            <p>Those providers process the content on our instructions to generate the summary. Their own privacy terms and security practices also apply. Policy text you submit for analysis may be processed in the United States or other regions where those providers operate.</p>
+            <p>We also rely on service providers to host our API, and we may use a cloud database to cache analysis results by domain. Those providers process data only as needed to run our infrastructure.</p>
+
+            <h2>6. Storage and retention</h2>
+            <p><strong>On your device:</strong> The extension may store analysis results in local browser storage, keyed by domain name, for about 30 days (or until you clear extension data or we change the cache version). This stays on your machine unless your browser syncs extension data (if you have that enabled—see your browser settings).</p>
+            <p><strong>On our servers:</strong> We may cache analysis results (the summary JSON) keyed by domain name for about 30 days, and associate that with a prompt/version identifier so we can refresh summaries when our methodology changes. We do not intend to keep a long-term archive of full policy page HTML in our cache for this feature; the detailed text is used to produce the summary and may pass through our systems and AI providers as described above.</p>
+            <p>Server logs may be kept for a shorter or longer period depending on our hosting and security needs. We use reasonable safeguards to protect data in transit and at rest.</p>
+
+            <h2>7. Sharing of information</h2>
+            <p>We do not sell your personal information. We share information only with:</p>
+            <ul>
+                <li>AI and infrastructure providers described above, strictly to run DeStar.</li>
+            </ul>
+            <p>To ask questions, contact us at <a href="mailto:sedimbipramod@gmail.com">sedimbipramod@gmail.com</a>. We will respond as required by law.</p>
+
+            <h2>8. Security</h2>
+            <p>We use reasonable technical and organizational measures to protect information. No method of transmission or storage is 100% secure; we cannot guarantee absolute security.</p>
+
+            <h2>9. Changes to this policy</h2>
+            <p>We may update this policy when our practices or the law changes. We will post the new version on this page and update the “Last updated” date. If changes are material, we will provide additional notice when practical (for example, in the extension listing or release notes).</p>
+
+            <h2>10. Contact</h2>
+            <p>DeStar<br>
+            Email: <a href="mailto:sedimbipramod@gmail.com">sedimbipramod@gmail.com</a></p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="logo footer-logo">*DeStar</span>
+                <p>&copy; 2026 DeStar. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
